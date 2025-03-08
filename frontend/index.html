@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil to English Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Simple Tamil-to-English Translator</h2>
+
+        <h3>Text Input</h3>
+        <input type="text" id="inputText" placeholder="Enter Tamil text">
+        <button onclick="translateText()">Translate</button>
+        <p id="outputText"></p>
+
+        <h3>Upload Text File (.txt)</h3>
+        <input type="file" id="textFile">
+        <button onclick="uploadTextFile()">Translate File</button>
+        <p id="fileOutput"></p>
+
+        <h3>Upload Image (Tamil Text)</h3>
+        <input type="file" id="imageFile">
+        <button onclick="uploadImage()">Translate Image</button>
+        <p id="imageOutput"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
